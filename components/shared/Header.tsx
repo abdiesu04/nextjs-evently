@@ -12,8 +12,10 @@ const Header = () => {
 				<Link href={'/'} className="w-36">
 					<Image
 						src={'/assets/images/logo.svg'}
-						width={128}
-						height={38}
+						width={100}
+						height={50}
+						// layout="fill"
+    					objectFit="cover"
 						alt="Logo Evently"
 					/>
 				</Link>

@@ -8,7 +8,7 @@ const Hero = () => {
 			<div className="flex flex-col justify-center gap-8">
 				<h1 className="h1-bold">
 					Organize, Network, Commemorate: Your Occasions, Our
-					Platform!
+					Platform!jkljsf
 				</h1>
 				<p className="p-regular-20 md:p-regular-24">
 					Connect, Learn, Grow: Access Insights from 3,168+ Mentors in
