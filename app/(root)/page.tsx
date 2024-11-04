@@ -36,7 +36,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
 							asChild
 							className="bg-green-400 button w-full sm:w-fit"
 						>
-							<Link href="#events">Explore Now</Link>
+							<Link href="#events">Explore Events</Link>
 						</Button>
 					</div>
 

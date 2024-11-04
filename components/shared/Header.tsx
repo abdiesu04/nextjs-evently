@@ -8,30 +8,24 @@ import MobileNav from './MobileNav';
 const Header = () => {
 	return (
 		<header className="w-full border-b">
-			<div className="wrapper flex items-center justify-between">
+			<div className="wrapper flex justify-between items-center">
 				<Link href={'/'} className="w-36">
 					<Image
 						src={'/assets/images/logo.svg'}
 						width={100}
 						height={50}
-						// layout="fill"
-    					objectFit="cover"
-						alt="Logo Evently"
+						objectFit="cover"
+						alt="Logo Gumii"
 					/>
 				</Link>
-
-				<SignedIn>
-					<nav className="md:flex-between hidden w-full max-w-xs">
-						<NavItems />
-					</nav>
-				</SignedIn>
-
-				<div className="flex w-32 justify-end gap-3">
+				<div className="flex items-center gap-3 px-30">
 					<SignedIn>
+						<nav className="hidden md:flex">
+							<NavItems />
+						</nav>
 						<UserButton afterSignOutUrl="/"></UserButton>
 						<MobileNav />
 					</SignedIn>
-
 					<SignedOut>
 						<Button asChild className="rounded-md" size={'lg'}>
 							<Link href={'/sign-in'}>Login</Link>
